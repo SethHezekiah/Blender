@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+	<title>Blender: Browse</title>
+
+	<style>
+	
+	body {
+	font-family: Verdana, sans-serif;
+	}
+	
+	#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(220, 220, 220);
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	z-index: 3;
+	}
+	
+	#logo {
+	float: left;
+	}
+	
+	#blender {
+	font-family: Ubuntu, sans-serif;
+	font-size: 30px;
+	display: inline;
+	margin-left: 10px;
+	padding-right: 10px;
+	}
+	
+	#b {
+	font-size: 40px;
+	font-weight: bold;
+	}
+	
+	#header p {
+	display: inline;
+	font-size: 15px;
+	}
+	
+	#navigation {
+	font-size: 15px;
+	text-decoration: none;
+	display: inline;
+	position: relative;
+	top: 25px;
+	left:20%%;
+	}
+	
+	#general {
+	display: inline;
+	}
+	
+	#membership {
+	display: inline;
+	margin-left: 100px;
+	}
+	
+	#search-bar {
+	font-size: 20px;
+	float: right;
+	margin-left: 10px;
+	margin-right: 30px;
+	margin-top: 20px;
+	}
+	
+	#book {
+	height: 310px;
+	width: 350px;
+	background-color: rgb(240, 240, 240);
+	position: relative;
+	top: 100px;
+	overflow: hidden;
+	z-index: 2;
+	}
+	
+	#book img {
+	height: 230px;
+	position: absolute;
+	top: 53px;
+	left: 5%;
+	}
+	
+	.book-info {
+	color: #0066c0;
+	text-decoration: none;
+	position: absolute;
+	text-align: center;
+	display: block;
+	margin: 0;
+	}
+	
+	#title {
+	top: 1px;
+	}
+	
+	#author {
+	top: 35px;
+	left: 29%;
+	}
+	
+	#format {
+	bottom: 5px;
+	left: 35%;
+	}
+
+	#owned-by {
+	position: relative;
+	left: 200px;
+	top: 100px;
+	}
+	#owned-by p {
+	margin-top: 11px;
+	}
+	
+	#not-a-div {
+	height: 4000px;
+	width: 200px;
+	}
+	
+	</style>
+	
+	</head>
+
+<body>
+
+	<div id="header">
+
+			<div id="logo">
+			
+				<h1 id="blender" ><span id="b">B</span>lender</h1>
+				
+				<p>Farmville book lending</p>
+			
+			</div>
+			
+			<div id="navigation">
+			
+				<div id="general">
+				
+					<a href="index.html">HOME</a>
+					
+					<p>|</p>
+					
+					<a href="browse.html">BROWSE</a>
+					
+					<p>|</p>
+					
+					<a href="">UPLOAD</a>
+				
+				</div>
+				
+				<div id="membership">
+				
+					<a href="">LOG IN</a>
+					
+					<p>|</p>
+					
+					<a href="">SIGN UP</a>
+				
+				</div>
+			
+			</div>
+			
+			<div id="search-bar">
+			
+				<input type="text" placeholder="Search by title or ISBN"/>
+			
+				<button>Search</button>
+
+			</div>
+			
+	</div>
+	
+	<a href="http://www.amazon.com/Lightning-Thief-Percy-Jackson-Olympians/dp/0786838655"><div id="book">
+	
+		<h5 class="book-info" id="title">The Lightning Thief (Percy Jackson and the Olympians, Book 1) </h5>
+		
+		<img src="http://ecx.images-amazon.com/images/I/51BfYSYSfxL._SX336_BO1,204,203,200_.jpg"/>
+		
+		<h6 class="book-info" id="author">By Rick Riordan</h6>
+		
+		<h6 class="book-info" id="format">Paperback</h6>
+		
+		<div id="owned-by">
+		
+			<h6 class="book-info">OWNED BY:</h6>
+		
+			<p class="book-info">Seth H. Atwater</p>
+		
+		</div>
+	
+	</div></a>
+	
+	<div id="not-a-div"></div>
+
+</body>
+
+</html>
